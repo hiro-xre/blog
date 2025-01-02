@@ -1,4 +1,5 @@
 <template>
+  <!-- TODO: NuxtPageで管理する -->
   <UContainer>
     <UCard class="mt-10">
       <template #header>
@@ -21,4 +22,5 @@
       </UButton>
     </UCard>
   </UContainer>
+  <NuxtPage />
 </template>
