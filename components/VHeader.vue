@@ -27,7 +27,7 @@
         <UButton
           color="orange"
           variant="ghost"
-          icon="i-emojione-monotone-orange-book"
+          icon="i-emojione-monotone:artist-palette"
           :to="{ name: 'blogs' }"
         />
         <UButton

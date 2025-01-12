@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <div>Blogs</div>
+  <div class="flex flex-col items-center">
+    <div class="mb-4 flex items-center gap-2 text-2xl">
+      <UIcon name="i-emojione-monotone-orange-book" />
+      記事一覧
+      <UIcon name="i-emojione-monotone-orange-book" />
+    </div>
     <li>
       <NuxtLink :to="{ name: 'blogs-id', params: { id: '2025-target' } }">
         2025年の目標
