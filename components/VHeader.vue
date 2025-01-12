@@ -15,6 +15,12 @@
       <UButton
         color="orange"
         variant="ghost"
+        icon="i-material-symbols-light-code-rounded"
+        :to="{ name: 'blogs' }"
+      />
+      <UButton
+        color="orange"
+        variant="ghost"
         icon="i-emojione-monotone-orange-book"
         :to="{ name: 'blogs' }"
       />
@@ -37,6 +43,13 @@
         icon="i-simple-icons-github"
         target="_blank"
         to="https://github.com/hiro-xre"
+      />
+      <UButton
+        color="orange"
+        variant="ghost"
+        icon="i-emojione-monotone-envelope"
+        target="_blank"
+        to="mailto:xre0605@gmail.com"
       />
     </nav>
   </header>
