@@ -39,6 +39,7 @@ const items: string[] = [
           text="美味しかったクラフトビールについて執筆します."
           icon-name="i-emojione-monotone-clinking-beer-mugs"
         />
+        <p>ジャンルを問わずに執筆することもあります.</p>
         <p>気になるものがあれば是非ご覧になってください!</p>
       </div>
     </article>
