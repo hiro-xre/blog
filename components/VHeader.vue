@@ -13,7 +13,7 @@ const isDark = computed({
 <template>
   <header>
     <nav class="grid h-24 grid-cols-3 gap-2 p-4">
-      <div class="text-left">
+      <div class="flex text-left">
         <UButton
           color="orange"
           variant="ghost"
@@ -26,10 +26,10 @@ const isDark = computed({
           />
         </UButton>
       </div>
-      <div class="text-center">
+      <div class="flex items-center justify-center">
         <ULink to="/">hirolog</ULink>
       </div>
-      <div class="text-right">
+      <div class="flex text-right">
         <UButton
           color="orange"
           variant="ghost"
