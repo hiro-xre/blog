@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/stylesheets/globals.css'],
   content: {},
+  routeRules: {
+    '/**': { prerender: true },
+  },
   eslint: {
     config: {
       stylistic: {

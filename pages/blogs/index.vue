@@ -1,3 +1,10 @@
+<script setup lang="ts">
+const BLOGS_TITLE = 'blog';
+useHead({
+  title: BLOGS_TITLE,
+});
+</script>
+
 <template>
   <div class="flex flex-col items-center">
     <div class="mb-4 flex items-center gap-2 text-2xl">
