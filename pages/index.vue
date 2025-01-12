@@ -12,7 +12,6 @@ const items: string[] = [
 
 <template>
   <div>
-    <VHeader />
     <VCarousel
       :items="items"
       auto-play
