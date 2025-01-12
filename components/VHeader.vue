@@ -3,7 +3,7 @@
     <UButton
       color="orange"
       variant="ghost"
-      :to="{ name: '' }"
+      to="/"
     >
       <UAvatar
         size="md"

@@ -1,12 +1,12 @@
 <script setup lang="ts">
 type Props = {
-  items: string[];
-  autoPlay: boolean;
-  autoPlayMS: number;
-  indicators: boolean;
-  width: number;
-  height: number;
-  draggable: boolean;
+  items?: string[];
+  autoPlay?: boolean;
+  autoPlayMS?: number;
+  indicators?: boolean;
+  width?: number;
+  height?: number;
+  draggable?: boolean;
 };
 const { items = [], autoPlay = false, autoPlayMS = 5000, indicators = false, width = 300, height = 400, draggable = false } = defineProps<Props>();
 
