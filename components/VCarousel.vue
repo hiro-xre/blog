@@ -34,6 +34,7 @@ onMounted(() => {
     :indicators="indicators"
   >
     <img
+      class="mx-4"
       :src="item"
       :width="width"
       :height="height"

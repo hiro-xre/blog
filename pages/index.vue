@@ -7,6 +7,8 @@ const items: string[] = [
   '/images/art_3.jpg',
   '/images/beer_1.jpg',
   '/images/beer_2.jpg',
+  '/images/beer_3.jpg',
+  '/images/beer_4.jpg',
 ];
 </script>
 
@@ -17,7 +19,7 @@ const items: string[] = [
         hiro
       </h1>
     </div>
-    <article class="m-auto max-w-prose">
+    <article class="m-auto mb-10 max-w-prose">
       <div>
         <p>私のブログへようこそ!</p>
         <p>普段はVue.jsやTypeScriptを用いてフロントエンド開発を行なっています.プログラミングも好きですが,他にも好きなことがたくさんあります!</p>
@@ -44,8 +46,8 @@ const items: string[] = [
       :items="items"
       auto-play
       indicators
-      :width="400"
-      :height="600"
+      :width="300"
+      :height="510"
     />
   </div>
 </template>

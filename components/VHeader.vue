@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="grid h-24 grid-cols-2 gap-2 p-4">
+    <nav class="grid h-24 grid-cols-3 gap-2 p-4">
       <div class="text-left">
         <UButton
           color="orange"
@@ -13,6 +13,9 @@
             alt="Avatar"
           />
         </UButton>
+      </div>
+      <div class="text-center">
+        <ULink to="/">hirolog</ULink>
       </div>
       <div class="text-right">
         <UButton
