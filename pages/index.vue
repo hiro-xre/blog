@@ -22,29 +22,21 @@ const items: string[] = [
         <p>私のブログへようこそ!</p>
         <p>普段はVue.jsやTypeScriptを用いてフロントエンド開発を行なっています.プログラミングも好きですが,他にも好きなことがたくさんあります!</p>
         <p>ここでは,特に好きなことについて執筆を行なっています.</p>
-        <h2 class="flex items-center text-2xl text-orange-400">
-          技術
-          <UIcon
-            name="i-material-symbols-light-code-rounded"
-          />
-        </h2>
-        <p>主にフロントエンド周辺について執筆しています.</p>
-        <h2
-          class="flex items-center text-2xl text-orange-400"
-        >
-          芸術<UIcon
-            name="i-emojione-monotone:artist-palette"
-          />
-        </h2>
-        <p>美術館や展示会に行った際の感想を執筆しています.</p>
-        <h2
-          class="flex items-center text-2xl text-orange-400"
-        >
-          ビール<UIcon
-            name="i-emojione-monotone-clinking-beer-mugs"
-          />
-        </h2>
-        <p>私はクラフトビールが特に好きです.美味しかったビールや気になるビールの情報について執筆します.</p>
+        <IndexVBlogContentInfo
+          title="技術"
+          text="主にフロントエンド周辺について執筆しています."
+          icon-name="i-material-symbols-light-code-rounded"
+        />
+        <IndexVBlogContentInfo
+          title="芸術"
+          text="美術館や展示会に行った際の感想を執筆しています."
+          icon-name="i-emojione-monotone:artist-palette"
+        />
+        <IndexVBlogContentInfo
+          title="ビール"
+          text="美味しかったクラフトビールについて執筆します."
+          icon-name="i-emojione-monotone-clinking-beer-mugs"
+        />
         <p>気になるものがあれば是非ご覧になってください!</p>
       </div>
     </article>
