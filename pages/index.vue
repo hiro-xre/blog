@@ -11,16 +11,8 @@ const items: string[] = [
 </script>
 
 <template>
-  <UContainer>
-    <ColorScheme>
-      <USelect
-        v-model="$colorMode.preference"
-        :options="['system', 'light', 'dark']"
-      />
-    </ColorScheme>
-    <NuxtLink :to="{ name: 'blogs' }">
-      Blog一覧へ
-    </NuxtLink>
+  <div>
+    <VHeader />
     <VCarousel
       :items="items"
       auto-play
@@ -28,5 +20,5 @@ const items: string[] = [
       :width="400"
       :height="600"
     />
-  </UContainer>
+  </div>
 </template>
