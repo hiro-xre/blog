@@ -1,0 +1,14 @@
+@tailwind base;
+
+@layer base {
+  body {
+    font-family: theme(fontFamily.serif);
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+}
