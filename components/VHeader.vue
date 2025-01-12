@@ -1,56 +1,39 @@
 <template>
-  <header class="flex justify-between p-4">
-    <UButton
-      color="orange"
-      variant="ghost"
-      to="/"
-    >
-      <UAvatar
-        size="md"
-        src="/images/avater.jpg"
-        alt="Avatar"
-      />
-    </UButton>
-    <nav class="grid grid-flow-col gap-2">
-      <UButton
-        color="orange"
-        variant="ghost"
-        icon="i-material-symbols-light-code-rounded"
-        :to="{ name: 'blogs' }"
-      />
-      <UButton
-        color="orange"
-        variant="ghost"
-        icon="i-emojione-monotone-orange-book"
-        :to="{ name: 'blogs' }"
-      />
-      <UButton
-        color="orange"
-        variant="ghost"
-        icon="i-emojione-monotone-clinking-beer-mugs"
-        :to="{ name: 'blogs' }"
-      />
-      <UButton
-        color="orange"
-        variant="ghost"
-        icon="i-simple-icons-x"
-        target="_blank"
-        to="https://x.com/hiro_xre"
-      />
-      <UButton
-        color="orange"
-        variant="ghost"
-        icon="i-simple-icons-github"
-        target="_blank"
-        to="https://github.com/hiro-xre"
-      />
-      <UButton
-        color="orange"
-        variant="ghost"
-        icon="i-emojione-monotone-envelope"
-        target="_blank"
-        to="mailto:xre0605@gmail.com"
-      />
+  <header>
+    <nav class="grid h-24 grid-cols-2 gap-2 p-4">
+      <div class="text-left">
+        <UButton
+          color="orange"
+          variant="ghost"
+          to="/"
+        >
+          <UAvatar
+            size="md"
+            src="/images/avater.jpg"
+            alt="Avatar"
+          />
+        </UButton>
+      </div>
+      <div class="text-right">
+        <UButton
+          color="orange"
+          variant="ghost"
+          icon="i-material-symbols-light-code-rounded"
+          :to="{ name: 'blogs' }"
+        />
+        <UButton
+          color="orange"
+          variant="ghost"
+          icon="i-emojione-monotone-orange-book"
+          :to="{ name: 'blogs' }"
+        />
+        <UButton
+          color="orange"
+          variant="ghost"
+          icon="i-emojione-monotone-clinking-beer-mugs"
+          :to="{ name: 'blogs' }"
+        />
+      </div>
     </nav>
   </header>
 </template>
