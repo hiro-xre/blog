@@ -1,4 +1,6 @@
 # hirolog
+https://amazing-smakager-5a15e1.netlify.app/
+
 [hiro](https://x.com/hiro_xre)の個人ブログ開発メモ
 
 ## 環境構築
