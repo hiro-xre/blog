@@ -48,13 +48,16 @@ const isDark = computed({
           icon="i-emojione-monotone-clinking-beer-mugs"
           :to="{ name: 'blogs' }"
         />
-        <ClientOnly>
+        <ClientOnly v-if="!colorMode?.forced">
           <UButton
             :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
             color="orange"
             variant="ghost"
             @click="isDark = !isDark"
           />
+          <template #fallback>
+            <div class="size-8" />
+          </template>
         </ClientOnly>
       </div>
     </nav>
