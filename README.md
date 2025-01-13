@@ -1,5 +1,5 @@
 # hirolog
-https://amazing-smakager-5a15e1.netlify.app/
+https://hirolog.netlify.app/
 
 [hiro](https://x.com/hiro_xre)の個人ブログ開発メモ
 
