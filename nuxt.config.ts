@@ -8,13 +8,14 @@ export default defineNuxtConfig({
         lang: 'ja', prefix: 'og: https://ogp.me/ns#',
       },
       meta: [
+        { property: 'og:image', content: '/images/ogp_image.jpg' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: '/images/ogp_image.jpg' },
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'hirolog' },
         { property: 'og:title', content: 'hirolog' },
         { property: 'og:url', content: 'https://hirolog.netlify.app/' },
-        { property: 'og:image', content: '/images/ogp_image.jpg' },
         { property: 'og:description', content: '多趣味なフロントエンドエンジニアのアトリエ' },
-        { name: 'twitter:card', content: 'summary_large_image' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg', href: '/icon.svg' },
