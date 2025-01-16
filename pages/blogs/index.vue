@@ -1,7 +1,11 @@
 <script setup lang="ts">
-const BLOGS_TITLE = 'blog';
+const BLOGS_TITLE = '記事一覧';
+
 useHead({
   title: BLOGS_TITLE,
+  meta: [
+    { property: 'og:description', content: '技術や芸術、ビール等についての記事一覧です。' },
+  ],
 });
 </script>
 
