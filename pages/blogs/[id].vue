@@ -5,7 +5,7 @@ const { data } = await useAsyncData(route.path, () => {
 });
 
 useHead({
-  title: `${route.params.id}`,
+  title: data.value?.title,
   meta: [
     { property: 'og:description', content: data.value?.description },
   ],
