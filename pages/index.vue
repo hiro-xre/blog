@@ -7,8 +7,6 @@ const items: string[] = [
   '/images/art_3.jpg',
   '/images/beer_1.jpg',
   '/images/beer_2.jpg',
-  '/images/beer_3.jpg',
-  '/images/beer_4.jpg',
 ];
 </script>
 
@@ -48,7 +46,7 @@ const items: string[] = [
       auto-play
       indicators
       :width="300"
-      :height="510"
+      :height="400"
     />
   </div>
 </template>

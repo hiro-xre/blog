@@ -33,12 +33,13 @@ onMounted(() => {
     :items="items"
     :indicators="indicators"
   >
-    <img
-      class="mx-4"
-      :src="item"
-      :width="width"
-      :height="height"
-      :draggable="draggable"
-    >
+    <div class="mx-4 object-cover">
+      <img
+        :src="item"
+        :width="width"
+        :height="height"
+        :draggable="draggable"
+      >
+    </div>
   </UCarousel>
 </template>
