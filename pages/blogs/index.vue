@@ -10,7 +10,7 @@ useHead({
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
+  <div class="mt-16 flex flex-col items-center">
     <div class="mb-4 flex items-center gap-2 text-2xl">
       <UIcon name="i-emojione-monotone-orange-book" />
       記事一覧
