@@ -18,8 +18,8 @@ onMounted(() => {
 
 <template>
   <header>
-    <nav class="grid h-24 grid-cols-3 gap-2 p-4">
-      <div class="flex text-left">
+    <nav class="fixed left-0 top-0 z-10 flex w-full items-center justify-between bg-black p-4">
+      <div class="flex items-center">
         <UButton
           color="orange"
           variant="ghost"
@@ -35,7 +35,7 @@ onMounted(() => {
       <div class="flex items-center justify-center">
         <ULink to="/">hirolog</ULink>
       </div>
-      <div class="flex text-right">
+      <div class="flex items-center justify-end">
         <UButton
           color="orange"
           variant="ghost"

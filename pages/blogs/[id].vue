@@ -13,7 +13,7 @@ useHead({
 </script>
 
 <template>
-  <main>
+  <main class="mt-16">
     <ContentRenderer
       v-if="data"
       :value="data"
