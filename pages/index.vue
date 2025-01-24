@@ -23,6 +23,11 @@ const items: string[] = [
         <p>普段はVue.jsやTypeScriptを用いてフロントエンド開発を行なっています.プログラミングも好きですが,他にも好きなことがたくさんあります!</p>
         <p>ここでは,特に好きなことについて執筆を行なっています.</p>
         <IndexVBlogContentInfo
+          title="思考"
+          text="自身の思考を整理しています."
+          icon-name="i-emojione-monotone:thinking-face"
+        />
+        <IndexVBlogContentInfo
           title="技術"
           text="主にフロントエンド周辺について執筆しています."
           icon-name="i-material-symbols-light-code-rounded"

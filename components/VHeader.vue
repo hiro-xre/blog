@@ -39,6 +39,12 @@ onMounted(() => {
         <UButton
           color="orange"
           variant="ghost"
+          icon="i-emojione-monotone:thinking-face"
+          :to="{ name: 'blogs' }"
+        />
+        <UButton
+          color="orange"
+          variant="ghost"
           icon="i-material-symbols-light-code-rounded"
           :to="{ name: 'blogs' }"
         />
