@@ -21,5 +21,10 @@ useHead({
         2025年の目標
       </NuxtLink>
     </li>
+    <li>
+      <NuxtLink :to="{ name: 'blogs-id', params: { id: '2025-beer-izakaya-baru-go' } }">
+        IZAKAYA 場琉 GOO
+      </NuxtLink>
+    </li>
   </div>
 </template>
