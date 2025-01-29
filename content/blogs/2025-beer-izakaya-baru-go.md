@@ -34,7 +34,7 @@ https://tabelog.com/tokyo/A1305/A130501/13175064/
 
 #description
 ・シェッファーホッファー
-![シェッファホッファ](/images/beer/izakaya-baru-go/beer1.jpg)
+![シェッファホッファ](/images/beer/izakaya-baru-go/beer1.jpg){width=300, height=400}
 
 ドイツビールが飲めます!
 
@@ -56,7 +56,7 @@ https://tabelog.com/tokyo/A1305/A130501/13175064/
 
 #description
 ・もりもりスパイシーポテトフライ
-![・もりもりスパイシーポテトフライ](/images/beer/izakaya-baru-go/food1.jpg)
+![・もりもりスパイシーポテトフライ](/images/beer/izakaya-baru-go/food1.jpg){width=300, height=400}
 
 とてもオシャレな盛り付けでびっくりしたポテト!
 
