@@ -13,7 +13,7 @@ const items: string[] = [
 <template>
   <div>
     <div class="m-auto mb-8 mt-16 max-w-prose">
-      <h1 class="text-4xl font-medium">
+      <h1 class="text-4xl font-medium text-orange-400">
         hiro
       </h1>
     </div>

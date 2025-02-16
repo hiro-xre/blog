@@ -4,10 +4,7 @@ description: '池袋にあるオシャレな手料理居酒屋'
 ---
 
 ::v-heading{tag="h1" titleSize="text-3xl"}
-IZAKAYA 場琉 GOO
-
-#description
-https://tabelog.com/tokyo/A1305/A130501/13175064/
+[IZAKAYA 場琉 GOO](https://tabelog.com/tokyo/A1305/A130501/13175064/)
 ::
 
 ::v-heading{tag="h2" titleSize="text-2xl"}
