@@ -8,17 +8,9 @@ const isLargeScreen = useMediaQuery(
   // NOTE: サーバーレンダリング時のサイズを指定しています
   { ssrWidth: 959 },
 );
-const colorMode = useColorMode();
+const { isDark, colorMode } = useTheme();
 
 // helpers
-const isDark = computed({
-  get() {
-    return colorMode.value === 'dark';
-  },
-  set(newValue) {
-    colorMode.value = newValue ? 'dark' : 'light';
-  },
-});
 const toggleMenuDisplay = (): void => {
   isOpen.value = !isOpen.value;
 };

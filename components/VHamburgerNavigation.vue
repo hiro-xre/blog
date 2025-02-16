@@ -50,7 +50,7 @@ const links: Link[] = [
   <UVerticalNavigation
     class="items-center"
     :links="links"
-    :ui="{ wrapper: 'truncate' }"
+    :ui="{ wrapper: 'truncate', label: 'text-white' }"
   >
     <template #icon="{ link }">
       <UIcon
