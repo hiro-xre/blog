@@ -25,7 +25,8 @@ onMounted(() => {
 <template>
   <header>
     <nav
-      class="fixed left-0 top-0 z-10 flex w-full items-center justify-between bg-black p-4"
+      class="fixed left-0 top-0 z-10 flex w-full items-center justify-between p-4"
+      :class="{ 'bg-black': colorMode.value === 'dark', 'bg-white': colorMode.value === 'light' }"
     >
       <div class="flex items-center">
         <UButton
