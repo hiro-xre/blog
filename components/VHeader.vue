@@ -14,19 +14,13 @@ const { isDark, colorMode } = useTheme();
 const toggleMenuDisplay = (): void => {
   isOpen.value = !isOpen.value;
 };
-
-// life-cycles
-onMounted(() => {
-  colorMode.preference = 'dark';
-},
-);
 </script>
 
 <template>
   <header>
     <nav
       class="fixed left-0 top-0 z-10 flex w-full items-center justify-between p-4"
-      :class="{ 'bg-black': colorMode.value === 'dark', 'bg-white': colorMode.value === 'light' }"
+      :class="{ 'bg-black': isDark, 'bg-white': !isDark }"
     >
       <div class="flex items-center">
         <UButton

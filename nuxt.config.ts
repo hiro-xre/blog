@@ -23,6 +23,9 @@ export default defineNuxtConfig({
     },
   },
   css: ['~/assets/stylesheets/globals.css'],
+  colorMode: {
+    preference: 'dark',
+  },
   content: {},
   routeRules: {
     '/**': { prerender: true },
