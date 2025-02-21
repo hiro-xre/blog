@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+---
+
+# プロジェクトの説明
+* このプロジェクトはブログサイトである
+
+## ライブラリ・フレームワーク
+* [package.json](mdc:nuxt-ui-app/package.json)を参照すること
+* 主な構成はNuxt/Nuxt UI/Nuxt Contentである
+
+## ディレクトリ構成
+* 基本的にはNuxt公式ドキュメントが推奨するディレクトリ構成に準拠している
+
+## レンダリング手法
+* NuxtのSSGである
