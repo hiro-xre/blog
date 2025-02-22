@@ -32,7 +32,8 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      routes: ['/', '/blogs', '/blogs/2025-target', '/blogs/2025-beer-izakaya-baru-go'],
+      crawlLinks: true,
+      routes: ['/', '/blogs'],
     },
   },
   eslint: {
