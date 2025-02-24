@@ -98,10 +98,12 @@ const toggleMenuDisplay = (): void => {
               icon="i-ic:baseline-close"
               @click="toggleMenuDisplay()"
             />
-            <VHamburgerNavigation
-              class="h-full"
-              @click="toggleMenuDisplay()"
-            />
+            <div class="flex h-full flex-col">
+              <VHamburgerNavigation
+                @click="toggleMenuDisplay"
+                @theme-toggle="isDark = !isDark"
+              />
+            </div>
           </div>
         </USlideover>
       </template>
