@@ -12,7 +12,7 @@
     "lint:fix": "eslint --fix"
   },
   "devDependencies": {
-    "@nuxt/content": "3.0.0",
+    "@nuxt/content": "3.11.0",
     "@nuxt/devtools": "latest",
     "@nuxt/eslint": "0.7.4",
     "@nuxt/ui": "^2.20.0",
@@ -21,7 +21,7 @@
     "@vueuse/nuxt": "^12.5.0",
     "eslint": "^8.57.0 || ^9.0.0",
     "eslint-plugin-tailwindcss": "^3.17.5",
-    "nuxt": "^3.14.1592",
+    "nuxt": "^4.3.0",
     "typescript": "^5.7.2",
     "vue": "latest"
   }
