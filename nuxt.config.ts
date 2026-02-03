@@ -26,7 +26,12 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'dark',
   },
-  content: {},
+  content: {
+    database: {
+      type: 'sqlite',
+      filename: ':memory:',
+    },
+  },
   routeRules: {
     '/**': { prerender: true },
   },
